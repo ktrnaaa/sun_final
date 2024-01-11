@@ -1,0 +1,63 @@
+.suncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 150px;
+    align-items: center;
+    margin: auto;
+   
+  }
+  
+  .sun1 {
+    width: 150px;
+    height: 120px;
+    background-image: url('../img/sun1.svg'); 
+    position: relative;;
+    background-size: cover;
+    cursor: pointer;
+    margin: 0px;
+
+  }
+  .switcher{
+    width: 35px;
+  height: 20px;
+  }
+.arrow-1{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin: 20px;
+  width: 15px;
+  height: 10px;
+
+}
+.arrow-2{
+  border: solid black;
+  width: 15px;
+  height: 10px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.boxcontainer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  background-color: #3498db; 
+}
